@@ -9,13 +9,12 @@ export default class Database {
 	constructor() {
 		const connection = mysql.createConnection({
 			host: 'localhost',
-			user: 'me',
+			user: 'root',
 			password: 'secret',
 			database: 'tiny-url-monorepo'
 		});
 
 		connection.connect();
-
 	}
 
 	async execute(query: string): Promise<Url> {
