@@ -8,8 +8,8 @@
         "outDir": "dist",
         "baseUrl": "."
     },
-    "include": [
-        "api",
-        "website"
+    "exclude": [
+        "node_modules",
+        "dist"
     ]
 }

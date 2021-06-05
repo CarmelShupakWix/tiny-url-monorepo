@@ -4,6 +4,7 @@
     "description": "Tiny url monorepo api gateway",
     "main": "server.js",
     "scripts": {
+        "build": "tsc",
         "start": "tsc && node ./dist/server.js",
         "watch": "tsc && nodemon ./dist/server.js"
     },
